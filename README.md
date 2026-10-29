@@ -21,25 +21,6 @@ Everything runs in your browser, photos are never uploaded anywhere.
 - uloženie slučky alebo prstového rozpadu ako video (MP4 alebo WebM)
 - slovenčina a angličtina (tlačidlo vpravo hore)
 
-### Ako to zverejniť na GitHub Pages
-1. Maj účet na github.com.
-2. Klikni na **+** → **New repository**. Názov napr. `pixel-disintegration`, nastav **Public**, potvrď **Create repository**.
-3. Klikni na **uploading an existing file** (alebo **Add file** → **Upload files**).
-4. Nahraj `index.html`, `README.md` a `LICENSE`. Názov `index.html` nemeň.
-5. Dole klikni **Commit changes**.
-6. Otvor **Settings** → **Pages**.
-7. V časti **Build and deployment** vyber **Source: Deploy from a branch**, vetvu **main**, priečinok **/ (root)** a klikni **Save**.
-8. Počkaj 1 až 2 minúty. Stránka bude na `https://TVOJE-MENO.github.io/pixel-disintegration/`.
-
-Úprava neskôr: otvor `index.html` v repozitári, klikni na ceruzku, zmeň a daj **Commit changes**. Stránka sa obnoví sama.
-
-### Poznámky
-- Nahrávanie videa potrebuje novší Chrome, Edge alebo Safari. Formát (MP4 alebo WebM) vyberie prehliadač.
-- Veľa fotiek naraz zaberie pamäť. Aplikácia kvôli tomu znižuje rozlíšenie pri veľkom počte, ale najviac 1080p na fotku.
-- Súbory HEIC niektoré prehliadače nenačítajú. Prekonvertuj ich na JPG.
-- Fonty sa sťahujú z Google Fonts. Bez internetu sa použije záložný font.
-
----
 
 ## EN
 
@@ -52,19 +33,8 @@ Everything runs in your browser, photos are never uploaded anywhere.
 - custom text on the first photo (fonts, weight, size, letter spacing) that vanishes with a glitch
 - finger mode: drag across the photo and the next one assembles, leftovers are repaired with a glitch
 - save the loop or the finger session as video (MP4 or WebM)
-- Slovak and English (button in the top right)
+- Slovak and English (button in the top ### 
 
-### Publish on GitHub Pages
-1. Have an account on github.com.
-2. Click **+** → **New repository**. Name it e.g. `pixel-disintegration`, choose **Public**, click **Create repository**.
-3. Click **uploading an existing file** (or **Add file** → **Upload files**).
-4. Upload `index.html`, `README.md` and `LICENSE`. Do not rename `index.html`.
-5. Click **Commit changes**.
-6. Open **Settings** → **Pages**.
-7. Under **Build and deployment** choose **Source: Deploy from a branch**, branch **main**, folder **/ (root)**, click **Save**.
-8. Wait 1 to 2 minutes. Your page will be at `https://YOUR-NAME.github.io/pixel-disintegration/`.
-
-To update later: open `index.html` in the repository, click the pencil, edit, **Commit changes**. The site refreshes by itself.
 
 ### Notes
 - Video recording needs a recent Chrome, Edge or Safari. The browser picks MP4 or WebM.
